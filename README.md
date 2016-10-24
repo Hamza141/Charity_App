@@ -1,1 +1,3 @@
-# Charity_App
+# Charity App
+
+By Ahad and Hamza
