@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Charity App</string>
+
+    <string name="watch_ads">Watch Ads!</string>
+    <string name="vote">Vote</string>
+    <string name="charity_list">Charity List</string>
+    <string name="current_donations">Current Donations</string>
+    <string name="about_us">About Us</string>
+
 </resources>

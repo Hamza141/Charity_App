@@ -11,69 +11,59 @@
     tools:context="our.charity_app.MainActivity">
 
     <Button
-        android:id="@+id/button6"
+        android:id="@+id/about"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/button8"
+        android:layout_below="@+id/donations"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
-        android:text="About Us" /><![CDATA[
-
-
-
-    android:layout_centerHorizontal="true" />
-
-
-
-
-
-    ]]>
+        android:text="@string/about_us" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/watch"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="101dp"
-        android:text="Watch Ads!"
         android:layout_alignParentTop="true"
-        android:layout_alignStart="@+id/button4" />
+        android:layout_alignStart="@+id/list"
+        android:layout_marginTop="101dp"
+        android:text="@string/watch_ads" />
 
     <Button
-        android:id="@+id/button9"
+        android:id="@+id/vote"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Vote"
-        android:layout_below="@+id/button3"
-        android:layout_alignStart="@+id/button6"
-        android:layout_marginTop="14dp" />
+        android:layout_alignStart="@+id/about"
+        android:layout_below="@+id/watch"
+        android:layout_marginTop="14dp"
+        android:text="@string/vote" />
 
     <Button
-        android:id="@+id/button8"
+        android:id="@+id/donations"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Current Donations"
-        android:layout_below="@+id/button4"
+        android:layout_below="@+id/list"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="14dp" />
+        android:layout_marginTop="14dp"
+        android:text="@string/current_donations" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/list"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Charity List"
-        android:layout_below="@+id/button9"
+        android:layout_below="@+id/vote"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="15dp" />
+        android:layout_marginTop="15dp"
+        android:text="@string/charity_list" />
 
     <TextView
-        android:text="CharityApp"
+        android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/textView2"
-        android:textSize="40sp"
-        android:textStyle="bold"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:text="@string/app_name"
+        android:textSize="40sp"
+        android:textStyle="bold" />
 
 
 </RelativeLayout>

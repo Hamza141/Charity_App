@@ -15,11 +15,25 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".WatchActivity" />
-        <activity android:name=".VoteActivity" />
-        <activity android:name=".ListActivity" />
-        <activity android:name=".DonationActivity" />
-        <activity android:name=".AboutActivity"></activity>
+        <activity
+            android:name=".WatchActivity"
+            android:label="@string/watch_ads" />
+        <activity
+            android:name=".VoteActivity"
+            android:label="@string/vote" />
+
+        <activity
+            android:name=".ListActivity"
+            android:label="@string/charity_list" />
+
+        <activity
+            android:name=".DonationActivity"
+            android:label="@string/current_donations" />
+
+        <activity
+            android:name=".AboutActivity"
+            android:label="@string/about_us" />
+        />
     </application>
 
 </manifest>
